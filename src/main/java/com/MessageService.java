@@ -11,5 +11,10 @@ public class MessageService {
 		return "Hello Engineers";
 	}
 	
+	
+	@GetMapping("/welcome")
+	public String welcomeGuest() {
+		return "Welcome to the world of DevOps !!!";
+	}
 
 }
