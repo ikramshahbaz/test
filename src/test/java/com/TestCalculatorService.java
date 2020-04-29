@@ -22,6 +22,6 @@ public class TestCalculatorService {
 	
 	@Test
 	public void testMultiply() {
-		Assertions.assertEquals(200, calc.calculateMultiply());
+		Assertions.assertEquals(50, calc.calculateMultiply());
 	}
 }
